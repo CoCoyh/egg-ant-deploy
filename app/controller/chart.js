@@ -5,8 +5,8 @@ const moment = require('moment');
 
 class ChartController extends Controller {
   async getData() {
-    ctx.logger.info('mmmmmmmmmmmmmmm', ctx.request.url); 
     const { ctx} = this;
+    ctx.logger.info('mmmmmmmmmmmmmmm', ctx.request.url); 
     // mock data
     const visitData = [];
     const beginDay = new Date().getTime();
