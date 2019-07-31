@@ -17,7 +17,6 @@ module.exports = appInfo => {
 
   config.assets = {
     publicPath: '/public',
-    url: 'http://127.0.0.1:7001',
     devServer: {
       autoPort: true,
       command: 'umi dev --port={port}',
